@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "semi": [1, "always"],
+    "no-multiple-empty-lines": [2, {"max": 1, "maxEOF": 1, "maxBOF": 0}],
+    "indent": ["error", 2]
+  }
+}
